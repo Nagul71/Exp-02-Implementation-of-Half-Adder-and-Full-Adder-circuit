@@ -44,9 +44,33 @@ RegisterNumber:
 Logic symbol & Truthtable
 RTL realization
 
-### Output:
-### RTL
-### TIMING DIAGRAM
+# Output:
+## Half Adder
+
+## Full Adder
+```
+module exp3(a,b,c,sum,carry);
+input a,b,c;
+output sum,carry;
+assign sum=a^b^c;
+assign carry=(a&b)|((a^b)&c);
+endmodule
+```
+# RTL
+## Half Adder
+![Screenshot 2023-09-02 092308](https://github.com/Nagul71/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/118661118/4d0a6317-9091-4188-bb7c-ed0f65ccf829)
+
+
+## Full Adder
+
+![Screenshot 2023-09-02 093119](https://github.com/Nagul71/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/118661118/922f5b1b-6efc-478d-88ab-6799d04f7642)
+
+# TIMING DIAGRAM
+## Half Adder
+
+## Full Adder
+![Screenshot 2023-09-02 093821](https://github.com/Nagul71/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/118661118/859b30b7-ff14-438e-bbfe-7eba1ef36770)
+
 
 
 ### TRUTH TABLE 
